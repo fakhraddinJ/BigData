@@ -16,14 +16,11 @@ def reduceToCount(a, b):
 def main():
     conf = SparkConf().setAppName("Wordscount").setMaster("local")
     sc = SparkContext(conf=conf)
-    rdd = sc.textFile("hdfs:///user/hdfs/*.txt")
+    rdd = sc.textFile("hdfs:///fj/hdfs/hadoop_word.txt")
 
     words = rdd.flatMap(linesToWordsFunc)
     pairs = words.map(wordsToPairsFunc)
     counts = pairs.reduceByKey(reduceToCount)
-
-    # Listar solo las 100 primeras
-    #output = counts.takeOrdered(100, lambda (k, v): -v)
 
     for(word, count) in counts:
         print word + ': ' + str(count)
