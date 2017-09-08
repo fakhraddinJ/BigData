@@ -1,2 +1,4 @@
 # BigData
-Bia Data with Hadoop and Spark
+Bia Data with Spark
+1) wordcount
+2)
