@@ -1,5 +1,5 @@
 # BigData
-Bia Data with Spark
+Bia Data practices with Spark
 1) wordcount (Spark + Python)
 2) Tweet processing (Spark + Python)
 
