@@ -25,6 +25,8 @@ The first program prepared in python 3.5 environment, called “4_pyDownloadCSV_
        •	latitude: 36. 717320
        •	longitude: -4.418990
 
-testcc
+The next step after the Spark Streaming has started successfully, to put files into the source directory, the "4_pyDownloadCSV_MalagaBici.py" script will be executed, in a separate terminal window:  
+
+       $ python3.5 4_pyDownloadCSV_MalagaBici.py     
 
 
