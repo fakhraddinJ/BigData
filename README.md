@@ -18,6 +18,8 @@ Bia Data practices with Spark
         2.	4_hdfs_streaming_MalagaBici.py 
         
 The first program prepared in python 3.5 environment, called “4_pyDownloadCSV_MalagaBici.py”, is a script used to get the CSV file from the URL regularly and then transfer it to the HDFS file system. Second program developed in PySpark environment, called “4_hdfs_streaming_MalagaBici.py”, is a script submitted with Spark Streaming, and is responsible to load newly transferred files into streaming contexts from HDFS, and then transform them for further manipulation. for example:
+
       ````  $ spark_submit 4_hdfs_streaming_MalagaBici.py input 36.717320 -4.418990 ````
+testcc
 
 
