@@ -13,9 +13,9 @@ Bia Data practices with Spark
 
 4) Spark Streaming, Checking Malaga’s bike parking data via spark streaming technology in a live method, and finding three most nearest parkings to a given coordiation, with more than 10 percent of occupancy. Source URL of the original parking information: http://datosabiertos.malaga.eu/recursos/transporte/EMT/estacionamientos/Estacionamientos.csv .This project is based on two separate implementations of python applications (scripts):
 
-        1.	pyDownloadCSV.py 
+        1.	4_pyDownloadCSV_MalagaBici.py 
         
-        2.	hdfs_streaming.py 
+        2.	4_hdfs_streaming_MalagaBici.py 
         
 The first program prepared in python 3.5 environment, called “pyDownloadCSV.py”, is a script responsible to get the CSV file from the URL regularly and then transfer it to the HDFS file system
 
