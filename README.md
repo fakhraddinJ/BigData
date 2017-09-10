@@ -29,5 +29,5 @@ The next step after the Spark Streaming has started successfully, to put files i
 
        $ python3.5 4_pyDownloadCSV_MalagaBici.py     
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/relative/path/to/4_hdfs_streaming_MalagaBici.jpg?raw=true "Optional Title")
 
